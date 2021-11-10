@@ -48,3 +48,15 @@ console.log(student);
 console.log("jhon was absent on",student["datesWhenAbsent"]);
 
 console.log(students);
+
+// Functions
+ /*function greet(){
+     console.log("Hello Kratika");
+ }*/
+
+ //We can write a function like this.
+ const greet = function(){
+     console.log("Hello sir"); 
+ }
+
+ greet();
